@@ -12,5 +12,5 @@ Prática de lógica de programação utilizando a linguagem Java.
 | [VS Code Para Java](https://code.visualstudio.com/docs/java/java-tutorial) |
 | [Instalar Eclipse](https://www.eclipse.org/downloads/) |
 | [Atalhos Eclipse](https://blog.algaworks.com/atalhos-e-configuracoes-para-ganhar-produtividade-com-eclipse/) |
-|   |
+| [Classe Math](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)  |
 
