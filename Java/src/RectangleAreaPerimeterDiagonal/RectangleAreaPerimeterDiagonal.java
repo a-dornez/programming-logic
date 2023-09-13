@@ -45,7 +45,7 @@ public class RectangleAreaPerimeterDiagonal {
              scanner.nextLine();
              calculateAnother = scanner.nextLine();
 
-        } while (calculateAnother == "y" || calculateAnother == "Y");
+        } while (calculateAnother.equalsIgnoreCase("y"));
 
         scanner.close();         
     }
