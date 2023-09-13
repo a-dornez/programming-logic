@@ -15,23 +15,33 @@ public class LandAreaAndPrice {
 
         System.out.println("Greetings!");
 
-        //Colecting user's inputs       
-        System.out.println("Enter the land's length: ");
-         double landsLength = scanner.nextDouble();
-        System.out.println("enter the land's width: ");
-         double landsWidth = scanner.nextDouble();
-        System.out.println("Enter the square meter's price: ");
-         double squareMeterPrice = scanner.nextDouble();
+        String calculateAnother;
 
-        //calculating land's total area
-        double landsTotalArea = landsWidth * landsLength;
+        do {
 
-        //calculating land's total price
-        double landsTotalPrice = squareMeterPrice * landsTotalArea;
+            //Colecting user's inputs       
+            System.out.println("Enter the land's length: ");
+            double landsLength = scanner.nextDouble();
+            System.out.println("enter the land's width: ");
+            double landsWidth = scanner.nextDouble();
+            System.out.println("Enter the square meter's price: ");
+            double squareMeterPrice = scanner.nextDouble();
 
-        //Printing processed inputs to inform total price and total area
-        System.out.println("\nThe land's total area is " + String.format("%.2f", landsTotalArea) +
-         " m2, and it's total price is $" + String.format("%.2f", landsTotalPrice) + ".\n");
+            //calculating land's total area
+            double landsTotalArea = landsWidth * landsLength;
+
+            //calculating land's total price
+            double landsTotalPrice = squareMeterPrice * landsTotalArea;
+
+            //Printing processed inputs to inform total price and total area
+            System.out.println("\nThe land's total area is " + String.format("%.2f", landsTotalArea) +
+            " m2, and it's total price is $" + String.format("%.2f", landsTotalPrice) + ".\n");
+
+            System.out.println("Do you wish to execute another calculation? (y/n): ");
+             scanner.nextLine();
+             calculateAnother = scanner.nextLine();
+        
+        } while( calculateAnother.equalsIgnoreCase("y") ); 
 
         scanner.close();
     }

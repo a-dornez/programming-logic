@@ -18,7 +18,9 @@
         System.out.println("\nSalutations!\n");
 
         String verifyAnother;
-        do { 
+
+        do {
+             
             //Asks and collects user inputs
             System.out.println("Please, insert first semester's grade: ");
             double firstSemesterGrade = scanner.nextDouble();
