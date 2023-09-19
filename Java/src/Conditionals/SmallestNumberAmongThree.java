@@ -3,7 +3,7 @@
  * Problem by Nelio Alves
 */
 
-package SmallestNumberAmongThree;
+package Conditionals;
 
 import java.util.Locale;
 import java.util.Scanner;

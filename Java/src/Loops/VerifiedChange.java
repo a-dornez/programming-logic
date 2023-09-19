@@ -5,7 +5,7 @@
  *          problem given By Nelio Alves
  */
 
-package VerifiedChange;
+package Loops;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -4,7 +4,7 @@
  *      Prblem given by Nelio Alves
  */
 
-package BasicTelephonePlanBill;
+package Loops;
 
 import java.util.Locale;
 import java.util.Scanner;

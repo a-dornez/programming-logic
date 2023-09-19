@@ -3,7 +3,7 @@
  * has no real roots, display a message.
  */
 
- package QuadraticFormula;
+ package Conditionals;
 
  import java.util.Locale;
  import java.util.Scanner;

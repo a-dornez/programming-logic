@@ -3,7 +3,7 @@
  * and worked hours. And then print the payment's value."
  */
 
-package PaymentWorkedHours;
+package Sequential;
 
 import java.util.Locale;
 
