@@ -37,5 +37,7 @@
 
             System.out.println("Weighted average = " + String.format("%.3f",weightedAverage) + ".\n");
         }
+
+        scanner.close();
     }
  }
