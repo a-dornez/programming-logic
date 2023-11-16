@@ -8,7 +8,7 @@
  *	"d. salaries between $700.00 and up to $1500.00: 10% raise;
  *	"e. salaries from S1500.00 and beyond: 5% raise;
  *			after calculating the new salary, print on screen:
- *	"a. salary before readjust;
+ *	"a. salary before readjustment;
  *	"b. the percentage of raise applied;
  *	"c. raises value;
  *	"d. new salary."
@@ -23,7 +23,7 @@ package Conditionals;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class SalaryReajust {
+public class SalaryReajustment {
 	
 	public static void main (String[] args) {
 		
@@ -33,18 +33,27 @@ public class SalaryReajust {
 		System.out.println("\nPlease, insert a employee's salary: ");
 		 double currentSalary = scanner.nextDouble();
 		
+		final double LOWEST_SALARY_RANGE = 280.00;
+		final double MEDIUM_SALARY_RANGE = 700.00;
+		final double HIGHEST_SALARY_RANGE = 1500.00;
+		 
+		final double LOWEST_SALARY_READJUST_TAX = 1.2;
+		final double LOWER_INTERMEDIATE_SALARY_READJUST_TAX = 1.15;
+		final double UPPER_INTERMEDIATE_SALARY_READJUST_TAX = 1.10;
+		final double HIGHEST_SALARY_READJUST_TAX = 1.05;
+		 
 		double appliedRaiseTax; 
-		if ( currentSalary <= 280.00 ) {
-			appliedRaiseTax = 1.2;
+		if ( currentSalary <= LOWEST_SALARY_RANGE ) {
+			appliedRaiseTax = LOWEST_SALARY_READJUST_TAX;
 		}
-		else if ( 280.00 < currentSalary && currentSalary <= 700.00 ) {
-			appliedRaiseTax = 1.15;
+		else if ( LOWEST_SALARY_RANGE < currentSalary && currentSalary <= MEDIUM_SALARY_RANGE ) {
+			appliedRaiseTax = LOWER_INTERMEDIATE_SALARY_READJUST_TAX;
 		}
-		else if ( 700.00 < currentSalary && currentSalary <= 1500.00 ) {
-			appliedRaiseTax = 1.10;
+		else if ( MEDIUM_SALARY_RANGE < currentSalary && currentSalary <= HIGHEST_SALARY_RANGE ) {
+			appliedRaiseTax = UPPER_INTERMEDIATE_SALARY_READJUST_TAX;
 		}
 		else {
-			appliedRaiseTax = 1.05;
+			appliedRaiseTax = HIGHEST_SALARY_READJUST_TAX;
 		}
 		
 		double newSalary = currentSalary * appliedRaiseTax;
