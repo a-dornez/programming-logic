@@ -13,9 +13,20 @@
  *	"c. raises value;
  *	"d. new salary."
  *		-- problem at www.computersciencemaster.com/exercicios-if-else/
+ *	
  *
- *	TODO: use constants to replace magical numbers;
- *	TODO: write about solving process
+ *	---------------------SOLVING PROCESS------------------------------------------------------------------------------------------
+ * 	I started with an objetcive "Calculate a salary reajustment based on current salary value", then proceded to write some steps
+ *	to approch a solution:
+ *		1. Read current salary;
+ *		2. Compare to given salary ranges to find applicabel raise tax;
+ *		3. Calculate readjustment;
+ *		4. Print informations.
+ *	Based on that, I sketched an if-else structure to find out the applicable raise tax and calculate the new salary. But I soon
+ *	realized that there should be a better way, It would be more efficient to just figure out the said tax within the if-else 
+ *	statements and let the new salary's calculation after them.Then, when I started coding I could use a single variable to receive
+ *	the raise taxes and avoid unecessary repetition.
+ *	-------------------------------------------------------------------------------------------------------------------------------
  */
 
 package Conditionals;
@@ -29,6 +40,7 @@ public class SalaryReajustment {
 		
 		Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 		
+		//welcome message and input collection
 		System.out.println("Welcome!\nYou must insert an employee's salary, then I'll calculate the reajust for you");
 		System.out.println("\nPlease, insert a employee's salary: ");
 		 double currentSalary = scanner.nextDouble();
@@ -42,7 +54,8 @@ public class SalaryReajustment {
 		final double UPPER_INTERMEDIATE_SALARY_READJUST_TAX = 1.10;
 		final double HIGHEST_SALARY_READJUST_TAX = 1.05;
 		 
-		double appliedRaiseTax; 
+		//Determines which raise tax is applicable
+		double appliedRaiseTax;
 		if ( currentSalary <= LOWEST_SALARY_RANGE ) {
 			appliedRaiseTax = LOWEST_SALARY_READJUST_TAX;
 		}
@@ -56,6 +69,7 @@ public class SalaryReajustment {
 			appliedRaiseTax = HIGHEST_SALARY_READJUST_TAX;
 		}
 		
+		//calculates new salary, raise value and converts raise tax to percentage format
 		double newSalary = currentSalary * appliedRaiseTax;
 		double raiseValue = newSalary - currentSalary;
 		appliedRaiseTax = appliedRaiseTax * 100 - 100;
