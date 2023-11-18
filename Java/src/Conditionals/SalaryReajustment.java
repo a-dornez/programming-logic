@@ -74,8 +74,7 @@ public class SalaryReajustment {
 		double raiseValue = newSalary - currentSalary;
 		appliedRaiseTax = appliedRaiseTax * 100 - 100;
 		
-		System.out.println("\nThis employe's current salary is $" + String.format("%.2f", currentSalary) + ", applying a raise tax of " + 
-				 appliedRaiseTax + "%, therefore icreasing $" + raiseValue + ", their new salary will be $" + String.format("%.2f", newSalary) + ".");
+		System.out.println("\nThis employe's current salary is $" + String.format("%.2f", currentSalary) + ", applying a raise tax of " + String.format("%.2f", appliedRaiseTax) + "%, therefore icreasing $" + String.format("%.2f", raiseValue) + ", their new salary will be $" + String.format("%.2f", newSalary) + ".");
 			
 		scanner.close();
 	}
