@@ -6,7 +6,7 @@
  */
 
 
-package Conditionals;
+package Loops;
 
 import java.util.Scanner;
 

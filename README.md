@@ -16,8 +16,8 @@ Tenho muito a agradecer ao Prof. Nélio Alves, pois comecei a estudar lógica pe
 | Cursos | Documentação | Programas | Variedades | 
 |:------:|:------------:|:---------:|:----:|
 | [Lógica de Programação Nélio Alves](https://www.udemy.com/course/curso-algoritmos-logica-de-programacao/) | [Git Reference](https://git-scm.com/docs) | [VS Code](https://code.visualstudio.com/docs/introvideos/basics) | [O que são algoritmos?](https://www.youtube.com/watch?v=dvNp575fwzQ) |
-| [Lógica de Programação Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV) | [GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) | [VisualG](https://visualg3.com.br/) | [Exercícios de lógica de programação](https://www.computersciencemaster.com.br/exercicios-de-logica-de-programacao/) |
-|        | [VisualG](http://manual.visualg3.com.br/doku.php?id=manual) |                | [Música Ambiente](https://youtu.be/Fnbd5z8kJFk?si=PjJARK-dDjVBFtpg) |
+| [Lógica de Programação Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV) | [GitHub Markdown](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) | [VisualG](https://visualg3.com.br/) | [Exercícios de lógica de programação](https://www.computersciencemaster.com.br/exercicios-de-logica-de-programacao/) |
+|        | [VisualG](http://manual.visualg3.com.br/doku.php?id=manual) |   [Eclipse](https://www.eclipse.org/downloads/)             | [Música Ambiente](https://youtu.be/Fnbd5z8kJFk?si=PjJARK-dDjVBFtpg) |
 |        | [Atalhos VS Code](https://www.crio.do/blog/vs-code-shortcuts/) |                | [Dicas de estudo](https://www.youtube.com/watch?v=Xfgc3ZDtwTQ) | 
 
 
@@ -37,6 +37,6 @@ Por exemplo, se minha solução inclui solicitar e coletar dados do usuário, pr
 
 É uma situação semelhante a aprender um novo idioma. Se simplesmente pego um dicionário e começo a ler na esperança de começar a falar, logo vou me sobrecarregar com uma enxurrade informações fora de contexto. Por outro lado, se quero ser capaz de fazer um pedido num restaurante, posso buscar as palavras e expressões específicas para estruturar meu pedido. É claro que é uma simplificação, mais ilustra como uma abordagem contextualizada é mais eficiente.
 
-No meu caso, iniciei estudando por pseudocódigo, pegando exercícios e elaborando soluções em portugol. Por enquanto <!-- 10.09.2023 --> não tenho uma linguagem que domino, mas estou aprendendo Java e percebo que coisas *System.out.println(  )*, ou *println( )* em C, ou *Console.WriteLine( )* do C# são apenas outra forma de dizer *escreval*. Ou seja, são apenas formas diferentes de resolver o mesmo problema "Como coletar uma entrada do usuário?". 
+No meu caso, iniciei estudando por pseudocódigo, pegando exercícios e elaborando soluções em portugol. Por enquanto <!-- 10.09.2023 --> não tenho uma linguagem que domino, mas estou aprendendo Java e percebo que coisas como *System.out.println(  )*, ou *println( )* em C, ou *Console.WriteLine( )* do C# são apenas outra forma de dizer *escreval* em pseudocódigo. Ou seja, são apenas formas diferentes de resolver o mesmo problema "Como coletar uma entrada do usuário?".
 
 Então, por mais que não teha ideia de como fazer algo específico em Java ou qualquer outra linguagem, consigo pensar sobre o problema e tentar resolvê-lo. Assim na hora de utilizar o Java, por exemplo, o que eu busco são as "palavras" e "sentenças" específicas que a linguagem disponibiliza para que eu possa dizer o que penso.
