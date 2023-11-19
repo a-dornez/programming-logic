@@ -1,5 +1,8 @@
 /*
- * 
+ *  "Read a int 'N' value. This value defines how many int numbers will be read right after.
+ *  To each read value, display a message identifying if it is an even or odd value, also if 
+ *  it is a  positive or negative value."
+ *   -- Problem By Nelio Alves
  */
 
 package Loops;
