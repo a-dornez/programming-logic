@@ -4,7 +4,7 @@
  *  -- Problem by Nelio Alves
  */
 
-package Loops;
+package loops;
 
 import java.util.Scanner;
 

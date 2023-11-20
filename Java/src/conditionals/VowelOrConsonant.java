@@ -3,7 +3,7 @@
  *  --problem at www.computersciencemaster.com/exercicios-if-else/
  */
 
-package Conditionals;
+package conditionals;
 
 import java.util.Scanner;
 

@@ -3,7 +3,7 @@
  * Problem by Nelio Alves
 */
 
-package Conditionals;
+package conditionals;
 
 import java.util.Locale;
 import java.util.Scanner;

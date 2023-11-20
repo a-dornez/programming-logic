@@ -16,7 +16,7 @@
  *  @since 11, 14th, 2023 
  */
 
-package Conditionals;
+package conditionals;
 
 import java.util.Scanner;
 
