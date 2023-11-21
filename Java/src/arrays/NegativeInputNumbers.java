@@ -8,7 +8,7 @@ package arrays;
 
 import java.util.Scanner;
 
-public class negativeInputNumbers {
+public class NegativeInputNumbers {
 
 	public static void main(String[] args) {
 		
