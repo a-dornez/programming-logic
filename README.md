@@ -2,7 +2,7 @@
 
 Exercícios e desafios para praticar e desenvolver habilidades de lógica de programação e resolução de problemas utilizando algoritmos.
 
-Também é laboratório para aprender linguagens.
+Também é um laboratório para aprender linguagens.
 
 ## 🤝🏼 Agradecimentos
 
