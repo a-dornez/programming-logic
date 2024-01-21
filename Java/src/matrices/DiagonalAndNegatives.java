@@ -15,7 +15,7 @@ public class DiagonalAndNegatives {
 	
 		Scanner scanner = new Scanner(System.in);
 		
-		int[][] matrix = new int[9][9];
+		int[][] matrix = new int[10][10];
 		
 		System.out.print("\nWelcome!\nWhat will be the square matrix dimension?(up to 10): ");
 		 int usedDimension = scanner.nextInt();
