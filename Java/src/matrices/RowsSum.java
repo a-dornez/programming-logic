@@ -38,11 +38,11 @@ public class RowsSum {
 			System.out.print("\nHow many columns this matrix will be? (up to 10): ");
 			 columnsQuantity = scanner.nextInt();
 			 
-			if ( columnsQuantity <= 0 || columnsQuantity > 10 ) {
-					System.out.println("Invalid input. You must insert a value between 0 and 10.");
+			if ( columnsQuantity <=0 || columnsQuantity > 10 ) {
+					System.out.println("Invalid input. You must insert a value between 1 and 10.");
 			}
 			
-		} while ( columnsQuantity < 0 || columnsQuantity > 10 );
+		} while ( columnsQuantity <= 0 || columnsQuantity > 10 );
 		
 		//collects and assigns values to matrix positions
 		for ( int i = 0; i < rowsQuantity; i++ ) {
