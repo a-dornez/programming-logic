@@ -9,7 +9,7 @@ package matrices;
 
 import java.util.Scanner;
 
-public class EachLineBiggestCValue {
+public class EachLineBiggestValue {
 	
 	public static void main (String[] args) {
 		
