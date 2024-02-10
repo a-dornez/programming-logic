@@ -50,3 +50,4 @@ public class SumElementsAboveDiagonal {
 		scanner.close();
 	}
 }
+
