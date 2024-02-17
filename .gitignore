@@ -1,4 +1,4 @@
-//Java
+#Java
 # Compiled class file
 *.class
 
@@ -29,7 +29,7 @@ replay_pid*
 .fake
 /bin/
 
-//C
+#C
 # Prerequisites
 *.d
 
