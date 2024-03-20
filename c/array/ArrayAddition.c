@@ -16,7 +16,7 @@
 
     double insertedNumbers[arraySize];
 
-    //collecrs elements and sums them
+    //collects elements and sums them
     double arrayElementsSum = 0;
     for ( int i = 0; i < arraySize; i++ ) {
         printf("Insert #%d number: ",  (i+1) );
