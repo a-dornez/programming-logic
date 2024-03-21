@@ -5,7 +5,7 @@
  *          problem given By Nelio Alves
  */
 
-package loops;
+package conditionals;
 
 import java.util.Locale;
 import java.util.Scanner;

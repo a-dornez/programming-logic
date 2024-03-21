@@ -2,7 +2,7 @@
  * prints land's area and total price. Problem given by Nelio Alves.
  */
 
-package loops;
+package sequential;
 
 import java.util.Locale;
 import java.util.Scanner;

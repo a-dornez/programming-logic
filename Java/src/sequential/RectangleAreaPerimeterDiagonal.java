@@ -1,10 +1,11 @@
-package loops;
 /* Asks for a rectangle's width and heigth, calculates and
  * exhibts area, perimeter and diagonal values using 4 decimal places.
  * 
  *  TODO: create a class 'GeometricalPropoerties' to contain gemotrical propoerties calculation methods
  * 
  */ 
+
+package sequential;
 
 import java.util.Locale;
 import java.util.Scanner;
