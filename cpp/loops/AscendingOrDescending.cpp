@@ -16,7 +16,7 @@ int main() {
 
         cout << "Enter a integer value x: ";
         cin >> first;
-        cout<< "Enter other integer value: ";
+        cout<< "Enter a integer value y: ";
         cin >> second;
 
         if ( first < second ) {
