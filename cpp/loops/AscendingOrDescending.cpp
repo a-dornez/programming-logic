@@ -1,7 +1,7 @@
 /* "Read an undetermined amount of int values X and Y. Print for each pair
 * wether the were inserted in ascending or descending order. If the values
 * are equal, termiante execution."
-*   Problem by Nelio Alves
+*       -- Problem by Nelio Alves
 */
 
 #include<iostream>
